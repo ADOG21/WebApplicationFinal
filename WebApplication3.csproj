@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="mlb.html" />
+    <None Remove="nba.html" />
+    <None Remove="nfl.html" />
+    <None Remove="Program.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="mlb.html" />
+    <Compile Include="nba.html" />
+    <Compile Include="nfl.html" />
+    <Compile Include="Program.html" />
+  </ItemGroup>
+
+</Project>
